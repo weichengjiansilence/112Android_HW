@@ -169,7 +169,6 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="24dp"
         android:orientation="horizontal"
@@ -178,63 +177,55 @@
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintTop_creator="1">
 
+        <ImageView
+            android:id="@+id/output3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/softdrink" />
+
+        <ImageView
+            android:id="@+id/output1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="52dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/burger" />
+
+        <ImageView
+            android:id="@+id/output4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/coffee" />
+
+        <ImageView
+            android:id="@+id/output2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/frenchfry" />
+
+        <ImageView
+            android:id="@+id/output5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="80dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/soup" />
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/output3"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="8dp"
-        android:layout_weight="1"
-        app:layout_constraintEnd_toStartOf="@+id/output4"
-        app:layout_constraintTop_toBottomOf="@+id/showOrder"
-        app:srcCompat="@mipmap/softdrink" />
-
-    <ImageView
-        android:id="@+id/output1"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="52dp"
-        android:layout_weight="1"
-        app:layout_constraintEnd_toStartOf="@+id/output2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/showOrder"
-        app:srcCompat="@mipmap/burger" />
-
-    <ImageView
-        android:id="@+id/output4"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="4dp"
-        android:layout_weight="1"
-        app:layout_constraintEnd_toStartOf="@+id/output5"
-        app:layout_constraintTop_toBottomOf="@+id/showOrder"
-        app:srcCompat="@mipmap/coffee" />
-
-    <ImageView
-        android:id="@+id/output2"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="4dp"
-        android:layout_weight="1"
-        app:layout_constraintEnd_toStartOf="@+id/output3"
-        app:layout_constraintTop_toBottomOf="@+id/showOrder"
-        app:srcCompat="@mipmap/frenchfry" />
-
-    <ImageView
-        android:id="@+id/output5"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="80dp"
-        android:layout_weight="1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/showOrder"
-        app:srcCompat="@mipmap/soup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

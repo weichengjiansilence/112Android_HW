@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         // 隱藏所有圖片
         for (ImageView imageView : imageViews) {
-            imageView.setVisibility(View.INVISIBLE);
+            imageView.setVisibility(View.GONE);
         }
 
         // 為每個 CheckBox 設置點擊監聽器
@@ -66,14 +66,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (checkBoxes[i].isChecked()) {
                     imageViews[i].setVisibility(View.VISIBLE);
                 } else {
-                    imageViews[i].setVisibility(View.INVISIBLE);
+                    imageViews[i].setVisibility(View.GONE);
                 }
             }
         } else {
             txvShow.setText("請點餐");
             // 當沒有選中任何 CheckBox 時隱藏所有圖片
             for (ImageView imageView : imageViews) {
-                imageView.setVisibility(View.INVISIBLE);
+                imageView.setVisibility(View.GONE);
             }
         }
     }
