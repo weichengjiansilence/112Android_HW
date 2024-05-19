@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SPandLV_order</string>
+
+    <string-array name="types">
+        <item>主餐</item>
+        <item>附餐</item>
+        <item>飲料</item>
+    </string-array>
+    <string-array name="main">
+        <item>炸雞漢堡</item>
+        <item>豬肉漢堡</item>
+        <item>牛肉漢堡</item>
+        <item>炸魚漢堡</item>
+    </string-array>
+    <string-array name="side">
+        <item>薯條</item>
+        <item>玉米濃湯</item>
+        <item>沙拉</item>
+        <item>蘋果派</item>
+    </string-array>
+    <string-array name="drink">
+        <item>雪碧</item>
+        <item>可樂</item>
+        <item>冰紅茶</item>
+    </string-array>
+    <string name="order">送出</string>
+    <string name="cancel">取消</string>
+    <string name="hint">"主餐: 請選擇" "\n附餐: 請選擇" "\n飲料: 請選擇"</string>
+    <string name="strmain">"主餐: "</string>
+    <string name="strside">"\n附餐: "</string>
+    <string name="strdrink">"\n飲料: "</string>
+    <string name="choice">請選擇</string>
+
+    /*將靜態文本和數組數據放在資源文件中是最推薦的做法。這樣做不僅使應用更加清晰和易於維護，
+    還更容易進行國際化和本地化。如果你有特殊需求需要使用其他方法，請根據實際情況選擇最適合的方法。
+    當需要修改某個靜態文本時，只需在資源文件中進行更改，而不需要在代碼中逐一查找和替換。這樣可以大大減少出錯的風險，
+    並且更容易進行版本控制。*/
+
+</resources>
